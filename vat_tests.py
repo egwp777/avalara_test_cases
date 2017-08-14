@@ -11,7 +11,7 @@ class TestAvalaraVATIntegration(TestCase):
         self.avalara_sandbox = 'https://development.avalara.net/1.0/'
         self.headers = {
             'Content-Type': 'application/json',
-            'Authorization': 'Basic [redacted]',
+            'Authorization': 'Basic [redacted]',  # Make sure you add a valid string
             'Accept': 'application/json',
             'Host': 'development.avalara.net'
         }
@@ -46,7 +46,6 @@ class TestAvalaraVATIntegration(TestCase):
         self.assertIn("Malformed JSON near 'BusinessIdentificationNom'",
                       response.json().get('Messages')[0].get('Summary'))
 
-    # GB999 9999 73
     def test_avalara_vat_with_gb_vat_id(self):
         data = None
         resource = 'tax/get'
