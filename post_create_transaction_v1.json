@@ -1,0 +1,33 @@
+{
+  "Commit": "false",
+  "Client": "AvaTaxSample",
+  "CompanyCode": "DEFAULT",
+  "CustomerCode": "ABC4335",
+  "DocCode": "INV001",
+  "DocType": "SalesOrder",
+  "DocDate": "2014-01-01",
+  "Addresses": [
+    {
+      "AddressCode": "01",
+      "Line1": "45 Fremont Street",
+      "Line2": "Suite 100",
+      "Line3": "ATTN Accounts Payable",
+      "City": "Chicago",
+      "Region": "IL",
+      "Country": "US",
+      "PostalCode": "60602"
+    }
+  ],
+  "Lines": [
+    {
+      "LineNo": "1",
+      "DestinationCode": "01",
+      "OriginCode": "02",
+      "ItemCode": "N543",
+      "TaxCode": "NT",
+      "Description": "Red Size 7 Widget",
+      "Qty": "1",
+      "Amount": "10"
+    }
+  ]
+}

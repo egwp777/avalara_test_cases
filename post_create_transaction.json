@@ -1,0 +1,106 @@
+{
+  "lines": [
+    {
+      "number": "1",
+      "quantity": 1,
+      "amount": 100,
+      "addresses": {
+        "singleLocation": {
+          "line1": "Thames Valley Park",
+          "city": "Sonning",
+          "region": "Reading",
+          "country": "UK",
+          "postalCode": "RG6 1WA"
+        },
+        "shipFrom": {
+          "line1": "123 Main Street",
+          "city": "Irvine",
+          "region": "CA",
+          "country": "US",
+          "postalCode": "92615"
+        },
+        "shipTo": {
+          "line1": "Thames Valley Park",
+          "city": "Sonning",
+          "region": "Reading",
+          "country": "US",
+          "postalCode": "RG6 1WA"
+        },
+        "pointOfOrderOrigin": {
+          "line1": "Thames Valley Park",
+          "city": "Sonning",
+          "region": "Reading",
+          "country": "UK",
+          "postalCode": "RG6 1WA"
+        },
+        "pointOfOrderAcceptance": {
+          "line1": "123 Main Street",
+          "city": "Irvine",
+          "region": "CA",
+          "country": "US",
+          "postalCode": "92615"
+        }
+      },
+      "taxCode": "PS081282",
+      "itemCode": "Y0001",
+      "description": "Yarn",
+      "taxOverride": {
+        "type": "TaxAmount",
+        "taxAmount": 6.25,
+        "taxDate": "2017-08-02T00:00:00-07:00",
+        "reason": "Precalculated Tax"
+      }
+    }
+  ],
+  "type": "SalesInvoice",
+  "companyCode": "DEFAULT",
+  "date": "2017-08-02T00:00:00-07:00",
+  "customerCode": "ABC",
+  "purchaseOrderNo": "2017-08-02-001",
+  "addresses": {
+    "singleLocation": {
+      "line1": "123 Main Street",
+      "city": "Irvine",
+      "region": "CA",
+      "country": "US",
+      "postalCode": "92615"
+    },
+    "shipFrom": {
+      "line1": "123 Main Street",
+      "city": "Irvine",
+      "region": "CA",
+      "country": "US",
+      "postalCode": "92615"
+    },
+    "shipTo": {
+      "line1": "Thames Valley Park",
+      "city": "Irvine",
+      "region": "CA",
+      "country": "US",
+      "postalCode": "RG6 1WA"
+    },
+    "pointOfOrderOrigin": {
+      "line1": "Thames Valley Park",
+      "city": "Sonning",
+      "region": "Reading",
+      "country": "UK",
+      "postalCode": "RG6 1WA"
+    },
+    "pointOfOrderAcceptance": {
+      "line1": "123 Main Street",
+      "city": "Sonning",
+      "region": "Reading",
+      "country": "UK",
+      "postalCode": "RG6 1WA"
+    }
+  },
+  "commit": true,
+  "taxOverride": {
+    "type": "TaxAmount",
+    "taxAmount": 6.25,
+    "taxDate": "2017-08-02T00:00:00-07:00",
+    "reason": "Precalculated Tax"
+  },
+  "currencyCode": "USD",
+  "description": "Yarn"
+}
